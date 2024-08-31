@@ -1,0 +1,206 @@
+@font-face {
+    font-family:"SFpro" ;
+    src: url(./images/SF-Pro-Display-Regular.woff2);
+}
+*{
+    margin:0%;
+    border:0%;
+    box-sizing: border-box;
+    font-family: "SFpro";
+	font-style:normal;
+	font-weight:100;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "SFpro";
+    
+}
+#wrapper{
+    overflow: hidden;
+    position: relative;
+    
+}
+nav .logo img{
+    height: 20px;
+    
+}
+nav i{
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    position: fixed;
+    background-color: white;
+    top: 0%;
+    width: 100%;
+    padding-bottom: 10px;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #4a4a4d;
+}
+.offers{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.offers a{
+   color:blue; 
+}
+.back-video video{
+    width: 100%;
+}
+.services img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.services a{
+    color: blue;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.099);
+    margin-top: 25px;
+}
+.titles h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.products{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.099);
+
+}
+.product img{
+    height: 100px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.product a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card img{
+    height: 220px;
+}
+.card{
+   height: 500px;
+   width: 370px;
+   text-align: center;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 30px;
+   margin-top: 25px;  
+   transition: 0.7s;
+}
+.card-container{
+    margin-top: 30px;
+    text-align: center;
+}
+.card-container h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.card h1{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.card p{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.666);
+
+}
+.cards{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.apple-events{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding: 50px;
+}
+.apple-events h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.event-pictures img{
+    height: 400px;
+
+}
+.event-pictures{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.section-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-3 img{
+    height: 600px;
+}
+.section-3 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.store{
+    display: flex;
+    margin-left: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.store img{
+    height:22px;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-list ul{
+    list-style: none;
+}
+.menu-items{
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.099);
+}
+.footer p{
+   text-align: center; 
+}
+.footer{
+    padding: 20px;
+}
