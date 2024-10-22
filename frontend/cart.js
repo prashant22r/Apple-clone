@@ -21,9 +21,13 @@ function fetchCartItems() {
             productElement.classList.add("cart-item");
             productElement.innerHTML = `
               <img src="${item.image}" alt="${item.name}" />
-              <h2>${item.name}</h2>
-              <p>Price: ${item.price}</p>
-              <button onclick="removeFromCart('${item.id}')">Remove from Cart</button>
+              <div class="title-price">
+                <h2>${item.name}</h2>
+                <p>Price: ${item.price}</p>
+              </div>
+              <button onclick="removeFromCart('${item.id}')">Remove from Cart </button>
+              <div class="cart-item-break"></div>
+              
             `;
             productDiv.appendChild(productElement);
           });
