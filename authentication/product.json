@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "9daf",
+      "name": "Apple iPhone 15 (128 GB) - Black",
+      "price": "₹69,900",
+      "image": "http://127.0.0.1:5500/frontend/image2/71657TiFeHL._SX679_.jpg"
+    },
+    {
+      "id": "4870",
+      "name": "Apple iPad Pro 11″ (M4): Ultra Retina XDR Display, 256GB, Landscape 12MP Front Camera / 12MP Back Camera, LiDAR Scanner, Wi-Fi 6E, Face ID, All-Day Battery Life, Standard Glass — Space Black",
+      "price": "₹95,999",
+      "image": "http://127.0.0.1:5500/frontend/image2/61G6WfvA9vL._SX679_.jpg"
+    },
+    {
+      "id": "4ed1",
+      "name": "Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey",
+      "price": "₹59,990",
+      "image": "http://127.0.0.1:5500/frontend/image2/71jG+e7roXL._SX679_.jpg"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "username": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "John@12345",
+      "id": "be79"
+    },
+    {
+      "username": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "password": "Jane@12345",
+      "id": "9a16"
+    },
+    {
+      "id": "3b1b",
+      "username": "Prashant",
+      "email": "mainiprashant3@gmail.com",
+      "password": "Prashant@12345"
+    },
+    {
+      "id": "df95",
+      "username": "lucky",
+      "email": "lucky123@gmail.com",
+      "password": "Lucky@123"
+    },
+    {
+      "id": "279c",
+      "username": "Ranvijay",
+      "email": "ranvijay@gmail.com",
+      "password": "Ranvijay@123"
+    },
+    {
+      "id": "a126",
+      "username": "anshika",
+      "email": "Anshika@gmail.com",
+      "password": "Anshika@123"
+    },
+    {
+      "id": "5356",
+      "username": "Sita",
+      "email": "sita123@gmail.com",
+      "password": "Sita@12345"
+    },
+    {
+      "id": "8bb1",
+      "username": "Rohini",
+      "email": "rohini@gmail.com",
+      "password": "Rohini@12345"
+    },
+    {
+      "id": "1b22",
+      "username": "Sham",
+      "email": "sham@gmail.com",
+      "password": "Sham@12345"
+    },
+    {
+      "id": "04d6",
+      "username": "Lucky lucky",
+      "email": "groverlucky406@gmail.com",
+      "password": "Lucky@12345"
+    },
+    {
+      "id": "e8d2",
+      "username": "raghav",
+      "email": "raghav@gmail.com",
+      "password": "Raghav@12345"
+    },
+    {
+      "id": "e54d",
+      "username": "Raman",
+      "email": "ramandalal@gmail.com",
+      "password": "Ramlal@12345"
+    },
+    {
+      "id": "35f4",
+      "username": "lucky1",
+      "email": "lucky@gmail.com",
+      "password": "Lucky@123"
+    },
+    {
+      "id": "7e33",
+      "username": "himanshi",
+      "email": "himanshi@gmail.com",
+      "password": "Himan@123"
+    },
+    {
+      "id": "7362",
+      "username": "himan",
+      "email": "himan@gmail.com",
+      "password": "Himan@123"
+    },
+    {
+      "id": "5bb7",
+      "username": "parth",
+      "email": "parth@gmail.com",
+      "password": "Parth@123"
+    },
+    {
+      "id": "9f9c",
+      "username": "dhruv",
+      "email": "dhruv@gmail.com",
+      "password": "Dhruv@123"
+    }
+  ]
+}

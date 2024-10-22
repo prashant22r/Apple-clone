@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>signin</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./images/png-apple-logo-9711.png" alt="logo">
+        </div>
+        <ul id="nav-list">
+            <li> Store </li>
+            <a href="product2.html"><li>Mac</li></a>
+            <a href="product3.html"><li>iPad</li></a>
+            <a href="product1.html"><li>iPhone</li></a>
+            <li> Watch </li>
+            <li> AirPods</li>
+            <li> TV & Home </li>
+            <li> Entertainment </li>
+            <li> Accessories  </li>
+            <li> Support </li>
+            <a href="login.html"><li>Login</li></a>
+        </ul>
+        <div class="nav-icons">
+            <i class="search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+            </i>
+            <i class="cart">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                </svg>
+            </i>
+            
+        </div>
+        
+
+    </nav>
+    <div id="main">
+        <h1>Create an account </h1><br><br>
+
+        <form id="container">
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="username" placeholder="enter username"><br>
+            <span id="username-error" class="error-message"></span>
+            <br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"><br>
+            <span id="email-error"class="error-message"></span>
+            <br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="enter password"><br>
+            <img id="togglePasswd" src="./image2/eye-close.svg" alt=""  style="position: relative; right: -259px;
+    top: -46px; cursor: pointer;">
+            <span id="password-error"class="error-message"></span>
+      
+            <br>
+            <label for="confirm-password">Confirm Password</label><br>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="confirm password"><br>
+            <img src="./image2/eye-close.svg" alt="" id="togglePasswdConfirm" style="position: relative; right: -259px;
+    top: -46px; cursor: pointer;">
+            <span id="confirm-error"class="error-message"></span>
+      
+            <br>
+            <input type="checkbox">Remember me</input><br><br>
+            <button type="submit" id="signin">Sign Up</button><br>
+            <span id="account-created-message" class="error-message"></span><br>
+            <span id="user-exists-message" class="error-message"></span><br>
+        </form>
+        <div class="ruler"></div>
+        <div id="googlebox">
+            <img src="pngwing.com.png" alt="google">
+            <p>Login with Google</p>
+        </div>
+    </div>
+    <footer>
+        <p>Need some help? <a href="#">Chat now</a> or call 1-800-MY-APPLE.</p>
+        <p>The Apple Online Store uses industry-standard encryption to protect the confidentiality of the information you submit. Learn more about our <a href="#">Security Policy</a>.</p>
+        <p class="footer-links">More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.</p>
+        <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
+        <p class="footer-links"><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Sales and Refunds</a> | <a href="#">Legal</a> | <a href="#">Site Map</a></p>
+        <p>United States</p>
+    </footer>
+    <script src="signin.js"></script>
+</body>
+</html>

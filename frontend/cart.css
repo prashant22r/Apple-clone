@@ -1,0 +1,100 @@
+@font-face {
+    font-family:"SFpro" ;
+    src: url(./images/SF-Pro-Display-Regular.woff2);
+}
+*{
+    margin:0%;
+    border:0%;
+    box-sizing: border-box;
+    font-family: "SFpro";
+	font-style:normal;
+	font-weight:100;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "SFpro";
+}
+#wrapper{
+    overflow: hidden;
+    position: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+nav a{
+    text-decoration: none;
+    color:#4a4a4d;
+}
+nav a:hover{
+    color: black;
+}
+nav .logo img{
+    height: 20px;
+    
+}
+nav .nav-icons img{
+    height: 20px;
+    margin-left: 20px;
+}
+nav i{
+    margin-left: 20px;
+}
+nav{
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    position: absolute;
+    background-color: white;
+    top: 0%;
+    width: 100%;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #4a4a4d;
+}
+.product{
+    min-height: 80vh;
+}
+.product h1{
+    font-size: 40px;
+    margin-top: 300px;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.558);
+}
+.store{
+    display: flex;
+    margin-left: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.store img{
+    height:22px;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-list ul{
+    list-style: none;
+}
+.menu-items{
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.099);
+}
+.footer p{
+   text-align: center; 
+}
+.footer{
+    padding: 20px;
+}
